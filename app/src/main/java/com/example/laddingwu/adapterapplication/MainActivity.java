@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 DisplayMetrics dm = new DisplayMetrics();
                 getWindowManager().getDefaultDisplay().getRealMetrics(dm);
-                tv1.setText("dpi: "+dm.densityDpi +"width Pixe "+dm.widthPixels);
-                tv2.setText("smallWidthest : "+dm.widthPixels/(dm.densityDpi/160.0) +" dp");
-                tv3.setText("actual use dimen : "+getResources().getString(R.string.base_dpi));
+                tv1.setText("dpi : "+dm.densityDpi +"   width pixels : "+dm.widthPixels);
+                tv2.setText("计算出来的smallestWidth : "+dm.widthPixels/(dm.densityDpi/160.0) +"dp");
+                tv3.setText("实际使用的smallestWidth :  "+getResources().getString(R.string.base_dpi));
                 tv4.setText("当前手机： "+SystemUtil.getDeviceBrand()+"  "+SystemUtil.getSystemModel()+ " \n"+"当前系统： "+SystemUtil.getSystemVersion()+ " ");
                 LinearLayout.LayoutParams p= (LinearLayout.LayoutParams) view.getLayoutParams();
                 p.width = getResources().getDimensionPixelSize(R.dimen.qb_px_375);
