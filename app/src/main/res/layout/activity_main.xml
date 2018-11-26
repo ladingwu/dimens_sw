@@ -54,7 +54,7 @@
             app:layout_constraintTop_toTopOf="parent"/>
     <View
             android:id="@+id/view_show"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="@dimen/qb_px_40"
             android:background="@drawable/view_shape"
             android:layout_marginTop="60dp"
