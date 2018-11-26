@@ -33,6 +33,6 @@ public class MainActivity extends AppCompatActivity {
                 p.width = getResources().getDimensionPixelSize(R.dimen.qb_px_375);
                 view.setLayoutParams(p);
             }
-        },1000);
+        },500);
     }
 }
