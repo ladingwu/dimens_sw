@@ -15,5 +15,3 @@
 ## 希望用真机测试的，可运行app项目看效果(效果如下图)
 
 ![](https://github.com/ladingwu/dimens_sw/blob/master/test.png)
-
-> 对照参数供参考，如果上图中的圆角View刚好铺满屏幕宽度，说明适配OK
